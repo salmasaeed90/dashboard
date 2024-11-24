@@ -1,0 +1,58 @@
+<section class="dashboard">
+    <h1 class="main-title relative m-5 font-bold leading-3">Dashboard</h1>
+    <div class="wrapper grid gap-5 mt-10">
+        <div class="welcome bg-white rounded-xl  mx-2  lg:mx-5 overflow-hidden">
+            <div class="intro p-5 flex justify-between bg-[var(--grey-light-color)]">
+                <div class="">
+                    <h2 class="m-0 font-bold">Welcome</h2>
+                    <span class="text-[var(--grey-dark-color)] text-sm ml-0">Name</span>     
+                </div>
+                <img src="./assets/imgs/welcome.png" class="hidden md:block w-44" alt="welcom salma">
+            </div>
+            <div class="image w-14 h-14 border-2 border-solid border-white rounded-full p-0.5 bg-white shadow-md mx-auto md:ml-5 -mt-8">
+                <img src="../../../assets/imgs/avatar.png" class="w-full" alt="user-img">
+            </div>
+            <div class="body md:flex md:justify-between md:text-center p-5 my-5 bg-inherit   border-[var(--grey-light-color)]">
+                <div>Salma Saeed <span class="block text-[var(--grey-dark-color)] mt-2.5 text-sm ">Developer</span></div>
+                <div>80<span class="block text-[var(--grey-dark-color)] mt-2.5 text-sm">Projects</span></div>
+                <div>$8500 <span class="block text-[var(--grey-dark-color)] mt-2.5 text-sm">Erned</span></div>
+            </div>
+            <a href="" class="visite ml-auto mr-2.5 ">Profile</a>
+        </div> 
+        <div class="quick-draft bg-white rounded-xl p-5  mx-2  lg:mx-5 overflow-hidden">
+            <div class="mb-5">
+                <h2 class="mt-0 mb-1 font-bold">Quich Draft</h2>
+                <span class="text-[var(--grey-dark-color)] text-sm mt-0 ">Write A Draft For Your Ideas</span>     
+            </div>
+            <form action="">
+                <input type="text" placeholder="Title" 
+        class="bloch mb-5 w-full border-0 p-2 rounded-lg bg-[var(--grey-light-color)]">
+                <textarea placeholder="Your Thought" 
+                class="mb-5 w-full border-0 p-2 rounded-lg bg-[var(--grey-light-color)] min-h-36" ></textarea>
+                <input type="submit" value="Save" class="mr-auto visite">
+            </form>
+            
+
+        </div>
+        <div class="targets bg-white rounded-xl p-5  mx-2  lg:mx-5 overflow-hidden">
+            <div class="mb-5">
+                <h2 class="mt-0 mb-1 font-bold">Yearly Target</h2>
+                <span class="text-[var(--grey-dark-color)] text-sm mt-0 ">Targets Of The Year</span>     
+            </div>
+            <div class="target-row flex items-center justify-between mb-5 ">
+                <div class="icon w-1/4 h-14 flex items-center justify-center bg-blue-300 ">
+                    <i class="fa-solid fa-dollar-sign fa-lg text-[var(--blue-color)]"></i>
+                </div>
+                <div class="details w-3/4">
+                    <span>Money</span>
+                    <span>$20.000</span>
+                    <div class="progress ">
+                        <span style="width:40%; height:3px" class="bg-blue-900">
+                            <span>40%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
